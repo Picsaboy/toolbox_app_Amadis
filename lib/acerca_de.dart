@@ -63,22 +63,6 @@ class AcercaDeScreen extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(fontSize: 16, color: Colors.black87),
                       ),
-                      SizedBox(height: 20),
-                      ElevatedButton(
-                        onPressed: () {
-                        },
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color.fromARGB(255, 243, 243, 243),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(15),
-                          ),
-                          padding: EdgeInsets.symmetric(horizontal: 30, vertical: 12),
-                        ),
-                        child: Text(
-                          "¡Contáctame!",
-                          style: TextStyle(fontSize: 18),
-                        ),
-                      ),
                     ],
                   ),
                 ),

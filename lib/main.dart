@@ -37,7 +37,7 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset('assets/toolbox.png'),
-            Text("Bienvenido a la app de predicciones", style: TextStyle(fontSize: 18)),
+            Text("Bienvenido al toolbox app", style: TextStyle(fontSize: 18)),
           ],
         )        
       ),
